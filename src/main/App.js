@@ -4,15 +4,16 @@ import { BrowserRouter } from 'react-router-dom'
 import Globalstyle from './Style0'
 
 import Top from './Top'
-
+import Router from './Router'
 
 export default function App() {
   return (
       <BrowserRouter>
-      <Globalstyle/>
+        <Globalstyle/>
         <Corpo>
           <Top/>
-          </Corpo>
+          <Router/>
+        </Corpo>
       </BrowserRouter>
   );
 }
