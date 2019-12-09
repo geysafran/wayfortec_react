@@ -7,13 +7,14 @@ export default function Top(){
     return(
         <Header> 
             <figure>
-                <img src={retangulo} alt='Topo da pÃ¡gina' width="auto"/>
+                <img src={retangulo} alt='Topo da pÃ¡gina'/>
             </figure>
         </Header>
     );
 }
 
 const Header = styled.header`
-    padding: 0em;
-    margin: 0em;
+    img{
+        width: 100%;
+    }
 `;

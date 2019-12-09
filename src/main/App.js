@@ -5,6 +5,7 @@ import Globalstyle from "./Style0";
 
 import Top from "./Top";
 import Router from "./Router";
+import Footer from './Footer';
 
 export default function App() {
   return (
@@ -13,6 +14,7 @@ export default function App() {
       <Corpo>
         <Top />
         <Router />
+        <Footer />
       </Corpo>
     </BrowserRouter>
   );
@@ -20,4 +22,5 @@ export default function App() {
 
 const Corpo = styled.body`
   margin: 0em;
+  height: auto;
 `;
