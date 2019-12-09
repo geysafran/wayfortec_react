@@ -7,7 +7,7 @@ export default function Top(){
     return(
         <Header> 
             <figure>
-                <img src={retangulo} alt='Topo da página' width="auto"/>
+                <img src={retangulo} alt='Topo da pÃ¡gina' width="auto"/>
             </figure>
         </Header>
     );
