@@ -1,7 +1,7 @@
 import React from 'react'
 import { Route, Switch } from 'react-router-dom'
 
-import Home from '../view/Home'
+import Home from '../view/home'
 
 export default function Router(){
     return(

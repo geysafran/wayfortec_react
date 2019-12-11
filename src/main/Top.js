@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 import retangulo from '../img/Rectangle.png';
-import logo from '../img/logo2.svg';
+import logo from '../img/logo1.svg';
 import login from '../img/login.svg';
 
 export default function Top(){

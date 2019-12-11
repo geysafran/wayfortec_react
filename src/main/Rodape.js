@@ -7,7 +7,7 @@ export default function Rodape() {
   return (
     <Rod>
       <figure>
-        <img src={retangulo2} alt="Fundo da pag" width="auto" />
+        <img src={retangulo2} alt="Fundo da página"/>
       </figure>
     </Rod>
   );
@@ -16,4 +16,8 @@ export default function Rodape() {
 const Rod = styled.footer`
   padding: 0em;
   margin: 0em;
+
+  img{
+    width: 100%;
+  }
 `;
