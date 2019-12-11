@@ -8,30 +8,54 @@ import login from '../img/login.svg';
 export default function Top(){
     return(
         <Header> 
-            <figure>
-                <img class="ret" src={retangulo} alt='Topo da página'/>
-                <img class="logo" src={logo} alt='Logo' />
-                <img class="login" src={login} alt="login" />
-            </figure>
+            <div className="container-menu">
+            <img className="logo" src={logo} alt="Logo" />
+                <nav className="menu">
+                        <a href="#" className="item-menu">Home</a>
+                        <a href="#" className="item-menu">About</a>
+                        <a href="#" className="item-menu">Services</a>
+                        <a href="#" className="item-menu">Contact</a>
+                    </nav>
+                
+                        <img className="login" src={login} alt="login" />
+                   
+            
+                </div>
         </Header>
     );
 }
 
 const Header = styled.header`
-    .ret{
-        width: 100%;
+    .container-menu{
+       display: flex;
+       margin-bottom: 10vh;
+      justify-content: center;
+       height: 29vh;
+       background-image: linear-gradient(to top, white , #3e6fff);
     }
-    
+
+ 
     .logo{
         width: 12em;
-        position: absolute;
-        left: 30px;
-        padding-top: 1.5em;
+      
     }
     .login{
-        padding-top: 2em;
-        position: absolute;
-        right: 5em;
-        width: 2em;
+        padding-top: 2vh;
+        
     }
+    .menu {
+        width: 61%;
+        font-size: 1.6em;
+        text-align: center;
+        color: blue;
+        font-weight: 700;
+    }
+    a {
+        text-decoration: none;
+        margin: 3vw;
+        color: blue
+        font-weigth: 700;
+    }
+
+
 `;
