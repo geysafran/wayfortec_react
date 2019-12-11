@@ -19,5 +19,6 @@ const Rod = styled.footer`
 
   img{
     width: 100%;
+    padding-bottom: -10em;
   }
 `;

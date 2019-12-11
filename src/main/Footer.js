@@ -14,6 +14,10 @@ export default function Rodape(){
 }
 
 const Footer = styled.footer`
+    figure{
+        padding: 0em;
+        margin: 0em;
+    }
     img{
         width: 100%;
     }
