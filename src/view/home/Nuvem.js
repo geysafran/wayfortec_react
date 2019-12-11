@@ -39,7 +39,7 @@ const Section = styled.section`
     border-color: #4F76E8;
     width: 70vw;
     border-width: 0.1em;
-    margin: 15vw;
+    margin: 3vw;
 }
   img{
     width: 15vw;
