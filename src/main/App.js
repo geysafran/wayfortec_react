@@ -23,4 +23,7 @@ export default function App() {
 const Corpo = styled.body`
   margin: 0em;
   height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 `;

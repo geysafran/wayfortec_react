@@ -31,17 +31,17 @@ const Section = styled.section`
   margin: 0em;
   padding: 0em;
   display: grid;
-  grid-template-columns: 8em 5em 8em;
+  grid-template-columns: 5.5em 5.5em 5.5em;
   grid-template-rows: 12em 12em 12em;
   justify-content: space-around;
 
   hr{
     border-color: #4F76E8;
+    width: 70vw;
     border-width: 0.1em;
-    width: 45em;
-    margin: 6em 0em 6em 3em;
+    margin: 15vw;
 }
   img{
-    width: 8.5em;
+    width: 15vw;
   }
 `;

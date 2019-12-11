@@ -23,7 +23,7 @@ const Header = styled.header`
     }
     
     .logo{
-        width: 12em;
+        width: 25vw;
         position: absolute;
         left: 30px;
         padding-top: 1.5em;

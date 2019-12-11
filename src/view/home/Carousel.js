@@ -48,9 +48,10 @@ export default function Carousel1() {
 const Figure = styled.figure`
     hr{
         border-color: #4F76E8;
-        width: 45em;
-        margin: 6em 0em 6em 10em;
-}
+        width: 70vw;
+        border-width: 0.1em;
+        margin: 15vw;
+    }
     p{
         color: #4f76e8;
     }
