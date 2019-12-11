@@ -14,8 +14,6 @@ export default function Carousel1() {
           <Carousel.Item>
             <img className="d-block w-100" src={aaaa} alt="First slide" />
             <Carousel.Caption>
-              <h3 class="carousel">Cursos de Qualidade</h3>
-              <p class="carousel">Sites parceiros</p>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
@@ -26,18 +24,12 @@ export default function Carousel1() {
             />
   
             <Carousel.Caption>
-              <h3 class="carousel">Seja você a inovação</h3>
-              <p class="carousel">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
             <img className="d-block w-100" src={Extras} alt="Third slide" />
   
             <Carousel.Caption>
-              <h3 class="carousel">Extras</h3>
-              <p class="carousel">
-                
-              </p>
             </Carousel.Caption>
           </Carousel.Item>
         </Carousel>
@@ -51,11 +43,5 @@ const Figure = styled.figure`
         width: 70vw;
         border-width: 0.1em;
         margin: 15vw;
-    }
-    p{
-        color: #4f76e8;
-    }
-    h3{
-        color: #4f76e8;
     }
 `;

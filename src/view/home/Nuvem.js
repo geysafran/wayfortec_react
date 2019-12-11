@@ -34,7 +34,6 @@ const Section = styled.section`
   grid-template-columns: 5.5em 5.5em 5.5em;
   grid-template-rows: 12em 12em 12em;
   justify-content: space-around;
-
   hr{
     border-color: #4F76E8;
     width: 70vw;
@@ -42,6 +41,6 @@ const Section = styled.section`
     margin: 3vw;
 }
   img{
-    width: 15vw;
+    width: 11vw;
   }
 `;
