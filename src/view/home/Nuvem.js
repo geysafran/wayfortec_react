@@ -1,47 +1,75 @@
 import React from "react";
 import styled from "styled-components";
 
-import Css from '../../img/css.svg';
-import HTML from '../../img/HTML.svg';
-import Java from '../../img/java.svg';
-import JS   from '../../img/javascript.svg';
-import MySQL from '../../img/mysql.svg';
-import NodeJS from '../../img/nodejs.svg';
-import Python from '../../img/python.svg';
-import ReactJS from '../../img/react.svg';
+import back from '../img/Rectangle.png';
+
 
 export default function Nuvem(){
     return(
         <Section>
-            <img src={MySQL}   alt="MySQL" />
-            <img src={HTML}    alt="HTML" />
-            <img src={ReactJS} alt="React" />
-            <img src={JS}      alt="JavaScript" />
-            <p>Se inscreva nos cursos mais procurados do mercado!</p>
-            <img src={Css}    alt="CSS" />
-            <img src={NodeJS} alt="NodeJS" />
-            <img src={Python} alt="Python" />
-            <img src={Java}   alt="Java" />
-            <hr/>
+          
+          <div className="container-principal-home">
+            <div className="box-studant">
+                <h2 className="title-studant">Área do Aluno</h2>
+
+              </div>
+              <div className="box-subscription">
+                <h2 className="title-subscription">Quero me inscrever!</h2>
+                
+              </div>
+          </div>
+          <figure>
+            <img src={back} width="auto" alt='back' />
+          </figure>
         </Section>
 );  
 }
 
 const Section = styled.section`
-  margin: 0em;
-  padding: 0em;
-  display: grid;
-  grid-template-columns: 8em 5em 8em;
-  grid-template-rows: 12em 12em 12em;
-  justify-content: space-around;
+{
+ 
 
-  hr{
-    border-color: #4F76E8;
-    border-width: 0.1em;
-    width: 45em;
-    margin: 6em 0em 6em 3em;
 }
-  img{
-    width: 8.5em;
+
+  .container-principal-home{
+    background-image: url('./img/programming.jpg');
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
   }
-`;
+
+  .box-studant{
+    padding: 5vw;
+    background: blue;
+    box-shadow: 3px 1px 2px 3px green;
+    color: white;
+    border-radius: 10vw
+  }
+
+  .box-studant:hover{
+    background: white;
+    color: black;
+    transition: 1s;
+    padding: 6vw;
+    
+    
+  }
+
+  .box-subscription{
+    padding: 5vw;
+    background: blue;
+    box-shadow: 3px 1px 2px 3px green;
+    color: white;
+    border-radius: 10vw
+  }
+
+  .box-subscription:hover{
+    background: white;
+    color: black;
+    transition: 1s;
+    padding: 6vw;
+    
+    
+  }
+
+  }`;

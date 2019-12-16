@@ -28,37 +28,45 @@ const Footer = styled.footer`
     width: 100%;
     height: 34vh;
     background-image: linear-gradient(to top,#4f76e8,white);
-   justify-content: space-between;
+   justify-content: center;
     display: flex;
     align-items: flex-end;
 
 
    }
 
-   .item-fter a:hover {
+
+   .item-fter:hover {
        text-decoration: none;
+       font-size: 1rem;
        color: white;
+     
+    font-size: 0.8em;
+}
    }
 
    .footer.menu {
        display: flex;
        flex-direction: column;
+      
+}
        
 
    }
    .footer-login{
-
-
+        align-self: center;
+        height: 0vh;
 
    }
 
    .item-fter{
-       text-decoration: none;
-       color: white;
-       font-size: 1rem;
-       margin: 2vh;
-       font-size: 1em;
-       display: flex;
+        text-decoration: none;
+        color: #6a6b6d;
+        font-size: 0.8em;
+       
+        margin: 2vh;
+     
+        display: flex;
    }
        
 
