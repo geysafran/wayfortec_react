@@ -28,7 +28,7 @@ export default function Boxs(){
             </section>
             <section class="eve">
                 <h1>WayToTheWorld</h1>
-                <p>Para você que deseja mostrar tudo que aprendeu com os cursos que você escolheu, inscreva-se para no WayToTheWorld e mostre sua capacidade em um evento de tecnologia exclusivo para nosso alunos.</p>
+                <p>Para você que deseja mostrar tudo que aprendeu com os cursos que você escolheu, inscreva-se para no WayToTheWorld e mostre sua capacidade em um evento de tecnologia exclusivo para nossos alunos.</p>
              </section>
         </Section>
 );
