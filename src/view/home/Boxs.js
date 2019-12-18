@@ -1,30 +1,26 @@
 import React from "react";
-import styled from "styled-components"
+import styled from "styled-components";
 
-import Arrow from '../../img/Arrow2.svg';
 
 export default function Boxs(){
     return(
         <Section>
+
             <section class="intro">
-                <h1>Módulo introdutório</h1>
-                <ul>
-                    <li> A importância da Tecnologia </li>
-                    <li> Introdução ao mundo digital </li>
-                    <li> Introdução à lógica de programação </li>
-                    <li> Matemática aplicada à computação </li>
-                    <li> Certificação </li>
-                </ul>
+              <div className="">
+                  <h2 className=""></h2>
+                  <div className=""></div>
+                  <div className=""></div>
+              </div>
             </section>
-                <img src={Arrow} alt="Seta"/>
-                <section class="cursos">
-                <h1>Cursos</h1>
-                <p></p>
-            </section>
-            <img src={Arrow} alt="Seta"/>
-            <section class="exc">
-                <h1>Módulo exclusivo</h1>
-                <p>Modulo exclusivo para alunos cadastrados com baixa renda, entenda como funciona e como entrar no mercado de trabalho.</p>
+  
+            <section class="cursos">
+            <div className="">
+              <div className=""></div>
+              <div className=""></div>
+            </div>
+            
+                
             </section>
             <section class="eve">
                 <h1>WayToTheWorld</h1>

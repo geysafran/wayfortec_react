@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
 
-import retangulo from '../img/Rectangle.png';
+
 import logo from '../img/logo1.svg';
 import login from '../img/login.svg';
 
@@ -23,24 +23,56 @@ export default function Top(){
 }
 
 const Header = styled.header`
-    .oi{
         width: 4em;
         position: absolute;
-    }
+    
     .ret{
         width: 100%;
     }
-    
-    .logo{
-        width: 25vw;
-        position: absolute;
-        left: 30px;
-        padding-top: 1.5em;
-    }
+      
     .login{
-        padding-top: 2em;
-        position: absolute;
-        right: 5em;
-        width: 2em;
+        padding-top: 2vh;
+        
     }
+    .menu {
+        
+        width: 100%;
+        text-align: center;
+        
+    }
+
+    .box-login {
+        margin: 9vh;
+        width: 20%;
+    }
+    .item-menulist a {
+        color: black;
+        margin: 2vw;
+        font-size: 1.5em;
+        text-decoration: none;
+      
+        
+    }
+
+    a:hover {
+        color: white;
+        text-decoration: none;
+    }
+
+    .button-login {
+
+    }
+
+    .button-sigin{
+        background-color: blue;
+        width: 12vw;
+        height: 6vh;
+        border: none;
+        border-radius: 9px;
+        color: white;
+}
+
+
+
+
 `;
