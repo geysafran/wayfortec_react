@@ -6,19 +6,72 @@ import Retangulo2 from '../img/Rectangle2.png'
 export default function Rodape(){
     return(
         <Footer>
-            <figure>
-                <img src={Retangulo2} alt="Rodapé"/>
-            </figure>
+            <div className="container-footer">
+                <div className="footer-menu">
+                    <a href="#" className="item-fter">Página inicial</a>
+                    <a href="#" className="item-fter">Sobre nós</a>
+                    <a href="#" className="item-fter">Serviços</a>
+                    <a href="#" className="item-fter">Contato</a>
+                </div>
+                <div className="footer-login">
+                    <a href="#" className="item-fter">Fazer login</a>
+                    <a href="#" className="item-fter">Fazer inscrição</a>
+                </div>
+
+            </div>
         </Footer>
     );
 }
 
 const Footer = styled.footer`
-    figure{
-        padding: 0em;
-        margin: 0em;
-    }
-    img{
-        width: 100%;
-    }
+   .container-footer{
+    width: 100%;
+    height: 34vh;
+    background-image: linear-gradient(to top,#4f76e8,white);
+   justify-content: center;
+    display: flex;
+    align-items: flex-end;
+
+
+   }
+
+
+   .item-fter:hover {
+       text-decoration: none;
+       font-size: 1rem;
+       color: white;
+     
+    font-size: 0.8em;
+}
+   }
+
+   .footer.menu {
+       display: flex;
+       flex-direction: column;
+      
+}
+       
+
+   }
+   .footer-login{
+        align-self: center;
+        height: 0vh;
+
+   }
+
+   .item-fter{
+        text-decoration: none;
+        color: #6a6b6d;
+        font-size: 0.8em;
+       
+        margin: 2vh;
+     
+        display: flex;
+   }
+       
+
+
+
+   }
+
 `;
