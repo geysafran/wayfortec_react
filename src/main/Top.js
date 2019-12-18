@@ -25,13 +25,11 @@ export default function Top(){
 const Header = styled.header`
         width: 4em;
         position: absolute;
-    }
+    
     .ret{
         width: 100%;
     }
-        width: 12em;
       
-    }
     .login{
         padding-top: 2vh;
         
@@ -74,7 +72,7 @@ const Header = styled.header`
         color: white;
 }
 
-    }
+
 
 
 `;
