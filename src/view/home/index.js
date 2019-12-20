@@ -8,7 +8,6 @@ import Boxs from './Boxs';
 export default function Home(){
     return(
         <section>
-         
             <Nuvem/>
             <Boxs/>
         </section>

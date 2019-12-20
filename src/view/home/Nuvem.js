@@ -1,8 +1,6 @@
 import React from "react";
 import styled from "styled-components";
 
-import back from '../img/Rectangle.png';
-
 
 export default function Nuvem(){
     return(
@@ -18,9 +16,6 @@ export default function Nuvem(){
                 
               </div>
           </div>
-          <figure>
-            <img src={back} width="auto" alt='back' />
-          </figure>
         </Section>
 );  
 }
