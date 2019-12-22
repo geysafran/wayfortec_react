@@ -32,8 +32,8 @@ export default function Top(){
                 
                        
                    
-            .
             
+
                 </div>
         </Header>
     );
