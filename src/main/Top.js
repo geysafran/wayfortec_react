@@ -9,32 +9,19 @@ export default function Top(){
     return(
         <Header> 
             <div className="container-menu">
-            <img className="logo" src={logo} alt="Logo" />
+                <img className="logo" src={logo} alt="Logo" />
                 <nav className="menu">
-                        <a href="#" className="item-menulist">Página inicial</a>
-                        <a href="#" className="item-menulist">Sobre nós</a>
-                        <a href="#" className="item-menulist">Serviços</a>
-                        <a href="#" className="item-menulist">Contato</a>
-                    </nav>
-                    <div className="box-login">
-                        <img src={login} 
-                        alt="login" 
-                        className="button-login"
-                        /> Entrar
-
-                        <button 
-                        className="button-sigin"
-                        >Inscrever-se
-                        </button>
-                        
-                        {/* <p className=""></p> */}
-                    </div>
-                
-                       
-                   
-            
-
+                    <a href="#" className="item-menulist">Página inicial</a>
+                    <a href="#" className="item-menulist">Sobre nós</a>
+                    <a href="#" className="item-menulist">Serviços</a>
+                    <a href="#" className="item-menulist">Contato</a>
+                </nav>
+                <div className="box-login">
+                    <img src={login} alt="login" className="button-login"/> Entrar
+                    <button className="button-sigin">Inscrever-se</button>
+                    {/* <p className=""></p> */}
                 </div>
+            </div>
         </Header>
     );
 }
@@ -72,8 +59,6 @@ const Header = styled.header`
         margin: 2vw;
         font-size: 1.5em;
         text-decoration: none;
-      
-        
     }
     a:hover {
         color: white;
@@ -88,6 +73,5 @@ const Header = styled.header`
         border: none;
         border-radius: 9px;
         color: white;
-}
     }
 `;
