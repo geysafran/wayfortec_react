@@ -24,24 +24,18 @@ export default function Rodape(){
 
 const Footer = styled.footer`
    .container-footer{
-    width: 100%;
-    height: 34vh;
-    background-image: linear-gradient(to top,#4f76e8,white);
-   justify-content: center;
-    display: flex;
-    align-items: flex-end;
-
-
+        width: 100%;
+        height: 34vh;
+        background-image: linear-gradient(to top,#4f76e8,white);
+        justify-content: center;
+        display: flex;
+        align-items: flex-end;
    }
-
-
    .item-fter:hover {
        text-decoration: none;
        font-size: 1rem;
        color: white;
-     
-    font-size: 0.8em;
-}
+       font-size: 0.8em;
    }
 
    .footer.menu {
@@ -49,28 +43,16 @@ const Footer = styled.footer`
        flex-direction: column;
       
 }
-       
-
-   }
    .footer-login{
         align-self: center;
         height: 0vh;
-
    }
 
    .item-fter{
         text-decoration: none;
         color: #6a6b6d;
         font-size: 0.8em;
-       
         margin: 2vh;
-     
         display: flex;
    }
-       
-
-
-
-   }
-
 `;
