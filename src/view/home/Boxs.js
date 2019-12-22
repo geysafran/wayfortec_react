@@ -31,7 +31,7 @@ export default function Boxs(){
 }
 
 const Section = styled.section`
-    padding-top: 7vw;
+  padding-top: 7vw;
   display: flex;
   flex-direction: column;
   align-items: center;

@@ -27,12 +27,7 @@ const Section = styled.section`
   grid-template-columns: 5.5em 5.5em 5.5em;
   grid-template-rows: 12em 12em 12em;
   justify-content: space-around;
-  hr{
-    border-color: #4F76E8;
-    width: 70vw;
-    border-width: 0.1em;
-    margin: 3vw;
-}
+
   img{
     width: 11vw;
   }
@@ -50,8 +45,6 @@ const Section = styled.section`
     color: black;
     transition: 1s;
     padding: 6vw;
-    
-    
   }
 
   .box-subscription{
@@ -67,8 +60,6 @@ const Section = styled.section`
     color: black;
     transition: 1s;
     padding: 6vw;
-    
-    
   }
 
   `;

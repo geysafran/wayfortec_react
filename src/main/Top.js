@@ -31,24 +31,20 @@ const Header = styled.header`
        display: flex;
        padding: 3vw;
        margin-bottom: 10vh;
-        justify-content: center;
+       justify-content: center;
        height: 29vh;
        background-image: linear-gradient(to top, white , #3e6fff);
     }
  
     .logo{
         width: 12em;
-      
     }
     .login{
         padding-top: 2vh;
-        
     }
     .menu {
-        
         width: 100%;
         text-align: center;
-        
     }
     .box-login {
         margin: 9vh;
