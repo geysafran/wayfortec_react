@@ -17,9 +17,11 @@ export default function Top(){
                     <a href="#" className="item-menulist">Contato</a>
                 </nav>
                 <div className="box-login">
-                    <img src={login} alt="login" className="button-login"/> Entrar
+                    <button className="button-login">      
+                        <img src={login} alt="login" className="img-login"/><p className="submit-login">Entrar</p>
+                    </button>
+                    
                     <button className="button-sigin">Inscrever-se</button>
-                    {/* <p className=""></p> */}
                 </div>
             </div>
         </Header>
@@ -33,11 +35,12 @@ const Header = styled.header`
        margin-bottom: 10vh;
        justify-content: center;
        height: 29vh;
+       align-items: center;
        background-image: linear-gradient(to top, white , #3e6fff);
     }
  
     .logo{
-        width: 12em;
+        width: 11em;
     }
     .login{
         padding-top: 2vh;
@@ -50,17 +53,38 @@ const Header = styled.header`
         margin: 9vh;
         width: 20%;
     }
-    .item-menulist a {
+    .item-menulist {
+        
+        font-size: 1.3em;
+        
+    }
+    a {
+        padding: 2vw;
         color: black;
-        margin: 2vw;
-        font-size: 1.5em;
         text-decoration: none;
     }
     a:hover {
         color: white;
         text-decoration: none;
     }
-    .button-login {
+    .button-login{
+        display: flex;
+        background: none;
+        border: none;
+        text-decoration: none;
+        align-items: center;
+        outline: none;
+
+    }
+    .img-login {
+        color: blue;
+        padding: 0 1vw 0 0;
+    }
+
+    .submit-login {
+        color: black;
+        height: 2vh;
+        padding: 0 2vw 0 0;
     }
     .button-sigin{
         background-color: blue;
@@ -69,5 +93,11 @@ const Header = styled.header`
         border: none;
         border-radius: 9px;
         color: white;
+    }
+
+    .box-login{
+        display: flex;
+        align-items: center;
+
     }
 `;

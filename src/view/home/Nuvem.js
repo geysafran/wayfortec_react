@@ -7,11 +7,11 @@ export default function Nuvem(){
         <Section>
           
           <div className="container-principal-home">
-            <div className="box-studant">
+            <div className="boxyn studant">
                 <h2 className="title-studant">Área do Aluno</h2>
 
               </div>
-              <div className="box-subscription">
+              <div className="boxyn subscription">
                 <h2 className="title-subscription">Quero me inscrever!</h2>
                 
               </div>
@@ -21,45 +21,38 @@ export default function Nuvem(){
 }
 
 const Section = styled.section`
+height: 60vh;
+
+.container-principal-home{
+  background: url('./src/img/programming.jpg');
+  background-size: cover;
+  width: 100%;
+  align-items: center;
   margin: 0em;
   padding: 0em;
-  display: grid;
-  grid-template-columns: 5.5em 5.5em 5.5em;
-  grid-template-rows: 12em 12em 12em;
-  justify-content: space-around;
+  display: flex;
+  justify-content: center;
+}
 
+ 
   img{
     width: 11vw;
   }
-
-  .box-studant{
-    padding: 5vw;
-    background: blue;
-    box-shadow: 3px 1px 2px 3px green;
-    color: white;
-    border-radius: 10vw
-  }
-
-  .box-studant:hover{
+ 
+  .boxyn:hover{
     background: white;
     color: black;
     transition: 1s;
-    padding: 6vw;
   }
 
-  .box-subscription{
-    padding: 5vw;
-    background: blue;
-    box-shadow: 3px 1px 2px 3px green;
+  .boxyn {
+    padding: 2vw;
+    text-align: center;
+    background: linear-gradient(to bottom, #003df1, #1b70cca6);
+    box-shadow: 1px 3px 2px 1px #1f68b7;
     color: white;
-    border-radius: 10vw
+    margin: 2vw;
+    border-radius: 10vw;
   }
 
-  .box-subscription:hover{
-    background: white;
-    color: black;
-    transition: 1s;
-    padding: 6vw;
-  }
-
-  `;
+`;
