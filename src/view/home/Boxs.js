@@ -111,6 +111,12 @@ width: 100%;
 
 }
 
+.box-we{
+  display: grid;
+    grid-template-columns: 200px 200px;
+    justify-content: center;
+}
+
 
   
 `;
